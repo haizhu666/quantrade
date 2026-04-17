@@ -1,0 +1,21 @@
+[project]
+name = "sh50etf-option-trader"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "backtrader>=1.9.78.123",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.4",
+    "pandas>=3.0.2",
+    "tushare>=1.4.29",
+]
+
+[[tool.uv.index]]
+name = "ustc"
+url = "https://pypi.mirrors.ustc.edu.cn/simple/"
+
+[[tool.uv.index]]
+name = "aliyun"
+url = "https://mirrors.aliyun.com/pypi/simple/"
